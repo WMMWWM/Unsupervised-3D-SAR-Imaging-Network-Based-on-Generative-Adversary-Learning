@@ -6,7 +6,7 @@ from datasets import *
 from utils import *
 import tqdm
 import time
-## 成像输入： 1、回波矩阵输入路径 2、相位补偿矩阵 3、成像算法 4、成像结果保存路径
+
 
 parser= argparse.ArgumentParser()
 parser.add_argument("--echo_dir", type=str, default='./puca/mat_save/0.4', help="echo_dir")
